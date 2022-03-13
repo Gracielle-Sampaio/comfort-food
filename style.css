@@ -12,50 +12,72 @@ body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif; 
 }
-.circle{
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background:#42e98857;
-    filter: blur(160px) saturate(5);
-    z-index: -1;   
-}
-.primeiro{
-    top:-350px;
-    left:-350px;
-}
-.segundo{
-    right:-100%;
-}
-.terceiro{
-    left: -30%;
-}
-.quarto{
-    right:-100%;
-}
-.quinto{
-    left: -30%;
-}
 header{
     background-color: #0A2E36;
-    padding: 15px;
+    padding: 25px;
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: space-between;
    
 }
 header>h1{
     font-weight: 700;
-    color: #ffffff ;
-    padding-right: 20%;
+    color: #ffffff;
     text-align: center;
 }
-header>input{
+.barra-pesquisa{
+    display: flex;
+    align-items: center;
+}
+.barra-pesquisa input{
     width: 300px;
     height: 30px;
     background-color: #ffffff;
     border-radius: 20px;
     padding: 10px;
+    border: #ffffff;
+}
+.barra-pesquisa img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+.barra-pesquisa button{ 
+    position: relative;
+    left: -30px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #14CC60;
+    border: #14CC60;
+}
+.recommendation-section{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(assets/imagens/capa.jpg);
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+.texto-principal h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0A2E36;
+    font-size: 2rem;
+    padding: 80px 30px 0;
+    width: 200px;
+    
+}
+.texto-principal p{
+    text-transform: uppercase;
+    color: #14CC60;
+    padding: 5px 30px ;
+    font-weight: 700;
+}
+.gallery img{
+   border-radius: 20px 20px 20px 20px;
+   padding-right: 20px;
 }
