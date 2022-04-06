@@ -67,12 +67,11 @@ header>h1{
 }
 
 .recommendation-section{
-    display: flex;
-    justify-content: space-around;
     background-image: url(assets/imagens/capa.jpg);
     background-size: 100% 370px;
     background-repeat: no-repeat;
     padding-top: 60px;
+    padding-left: 100px;
 }
 
 .texto-principal h1{
