@@ -5,7 +5,7 @@ function confimarCadastro(){
 
   if ( (nomecompleto.value.length == 0) || (nomeusuario.value.length == 0) || (senha.value.length == 0)  ){
     alert("[ERROR] Preencha todas os campos!")
-  } else{
+  } else {
     alert("Cadastro Concluido com Sucesso!")
   }
 }
