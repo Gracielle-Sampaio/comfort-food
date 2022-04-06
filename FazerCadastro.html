@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/icones/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="cadastro.css">
+  <title>Cadastro-se</title>
+</head>
+<body>
+  <header>
+    <h1> <img src="assets/icones/logo.png" alt="Logo"> COMFORT FOOD</h1>
+    <div class="barra-pesquisa">
+        <input type="text" placeholder="Pesquise" >
+        <button><img src="assets/icones/pesquisar.png"></button>
+    </div>
+  </header>
+    
+    <main>
+      <div class="login">
+        <img src="assets/imagens/ebook.png" alt="">
+        <p>Já tem uma conta? <br> Faça <a href="login.html">Login</a>.</p>
+      </div>
+
+      <div class="cadastro">
+          <h1>Crie sua conta</h1>
+          <picture>
+            <img src="assets/icones/google.png" alt="">
+            <img src="assets/icones/facebook.png" alt="">
+            <img src="assets/icones/twitter.png" alt="">
+          </picture>
+          <br>
+          <input type="text" name="NameFull" id="Fname" placeholder="Nome Completo"><br>           
+          <input type="text" name="UserName" id="Uname" placeholder="Seu melhor apelido"><br>  
+          <input type="password" name="Password" id="pass" placeholder="Crie sua melhor senha"> <br> 
+          <p><input type="checkbox" name="lembrarsenha" id="ls"> Lembre-se de mim</p> <br>
+          <input type="button" value="submit" id="submit" onclick="confimarCadastro()">  
+        </div>
+    </main>
+
+    <footer>
+      <div class="navigation-links">
+          <ul>
+              <h4>REFEIÇÕES:</h4>
+              <li>Doces</li>
+              <li>Salgados</li>
+              <li>Prato principal</li>
+              <li>Acompanhamento</li>
+          </ul>
+          
+          <ul>
+              <h4>SOBRE:</h4>
+              <li>Contato</li>
+              <li>Quem somos</li>
+              <li>Mande sua receita</li>
+              <li>Parcerias</li>
+          </ul>
+          <ul>
+              <h4>SIGA-NOS</h4>
+              <li>Instragram</li>
+              <li>Twitter</li>
+              <li>Youtube</li>
+              <li>Pinterest</li>
+          </ul>
+          <img src="assets/imagens/logo.png" alt="Logo">
+      </div>
+
+      <div class="credits">
+          <span> <em>&copy;CONFORTFOODLTDA2022</em> </span>
+          <p>Site criado por <span><strong>Gracielle Sampaio</strong></span>, para o desafio <span><strong>Jornada DEV</strong></span></p>
+      </div>
+  </footer>
+  <script src="cadastro.js"></script>
+</body>
+</html>

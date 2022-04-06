@@ -171,11 +171,7 @@ header>h1{
     justify-content: center;
     align-items: center;
     width: 100%;
-<<<<<<< HEAD
     height: 300px;
-=======
-    min-height: 300px;
->>>>>>> 61f448a7faa65d346e330c9a5d72d90598c11f72
     padding-left: 20%;
     padding-right: 20%;
     background-color: var(--cor1);
